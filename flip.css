@@ -1,0 +1,26 @@
+.cardDetails {
+    width:50%;
+    margin:0 auto;
+    border:1px solid grey;
+
+}
+
+.cardDetails .addCreditCardForm {
+    border:1px solid black;
+    display:none;
+}
+
+.cardDetails .addCreditCardForm:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+.addCreditCardForm .col-1{
+    float:left;
+    width:40%;
+}
+.addCreditCardForm .col-2 {
+    float:left;
+    width:60%;  
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="flip.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Manage Credit Cards</h1>
+        <article class="cardDetails">
+            <span class="addCreditCard">+Add a new card</span>
+            <form class="addCreditCardForm">
+                <label for="cardNum" class="col-1">
+                    <input type="text" class="cardNum" placeholder="Enter Card Number" />
+                </label>
+                <label for="cardDate" class="col-2">
+                    <span>Expiry</span>
+                    <input type="text" class="month"/>
+                    <input type="text" class="year"/>
+                </label>
+                <label for="cvv" class="col-1">
+                    <input type="text" placeholder="Enter CVV"/>
+                </label>
+                <label for="cardName" class="col-2">
+                    <input type="text" placeholder="Name this Card for future use"/>
+                </label>
+                <button class="col-1">Save this card</button>
+                <button class="col-2">cancel</button>
+            </form>
+        </article>
+    </section>
+    
+</body>
+<script src="flip.js"></script>
+</html>
